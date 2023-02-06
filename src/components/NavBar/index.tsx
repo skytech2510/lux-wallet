@@ -91,7 +91,7 @@ const Navbar = () => {
         <Box display="flex" height="full" flexWrap="nowrap">
           <Box className={styles.leftSideContainer}>
             <Box className={styles.logoContainer}>
-              <span style={{fontSize: '22px'}}>▼</span>
+              <span style={{ fontSize: '22px' }}>▼</span>
             </Box>
             {!isNftPage && (
               <Box display={{ sm: 'flex', lg: 'none' }}>
