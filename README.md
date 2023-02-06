@@ -1,4 +1,4 @@
-# Uniswap Labs Interface
+# lux.exchange
 
 [![codecov](https://codecov.io/gh/Uniswap/interface/branch/main/graph/badge.svg?token=YVT2Y86O82)](https://codecov.io/gh/Uniswap/interface)
 
@@ -8,15 +8,15 @@
 [![Release](https://github.com/Uniswap/interface/actions/workflows/release.yaml/badge.svg)](https://github.com/Uniswap/interface/actions/workflows/release.yaml)
 [![Crowdin](https://badges.crowdin.net/uniswap-interface/localized.svg)](https://crowdin.com/project/uniswap-interface)
 
-An open source interface for Uniswap -- a protocol for decentralized exchange of Ethereum tokens.
+An open source interface for LUX -- a protocol for decentralized real world assets (RWAs).
 
-- Website: [uniswap.org](https://uniswap.org/)
-- Interface: [app.uniswap.org](https://app.uniswap.org)
-- Docs: [uniswap.org/docs/](https://docs.uniswap.org/)
-- Twitter: [@Uniswap](https://twitter.com/Uniswap)
-- Reddit: [/r/Uniswap](https://www.reddit.com/r/Uniswap/)
-- Email: [contact@uniswap.org](mailto:contact@uniswap.org)
-- Discord: [Uniswap](https://discord.gg/FCfyBSbCU5)
+- Website: [lux.exchange](https://lux.exchange)
+- Interface: [app.lux.exchange](https://app.lux.exchange)
+- Docs: [uniswap.org/docs/](https://docs.lux.exchange/)
+- Twitter: [@luxdefi](https://twitter.com/luxdefi)
+- Reddit: [/r/luxdefi](https://www.reddit.com/r/luxdefi/)
+- Email: [hi@lux.exchange](mailto:hi@lux.exchange)
+- Discord: [Lux](https://discord.gg/FCfyBSbCU5)
 - Whitepapers:
   - [V1](https://hackmd.io/C-DvwDSfSxuh-Gd4WKE_ig)
   - [V2](https://uniswap.org/whitepaper.pdf)
