@@ -14,7 +14,7 @@ exports[`ResizableTextArea renders correctly 1`] = `
   background-color: #F5F6FC;
   -webkit-transition: color 300ms step-start;
   transition: color 300ms step-start;
-  color: #0D111C;
+  color: #010101;
   overflow: hidden;
   text-overflow: ellipsis;
   font-weight: 500;
@@ -77,7 +77,7 @@ exports[`TextInput renders correctly 1`] = `
   background-color: #F5F6FC;
   -webkit-transition: color 300ms step-start;
   transition: color 300ms step-start;
-  color: #0D111C;
+  color: #010101;
   overflow: hidden;
   text-overflow: ellipsis;
   font-weight: 500;
