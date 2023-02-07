@@ -12,12 +12,12 @@ module.exports = function(app) {
     })
   )
   app.use(
-    '/api-beta',
+    '/api/beta',
     createProxyMiddleware({
       target: 'https://temp.api.uniswap.org/v1',
       changeOrigin: true,
       pathRewrite: {
-        '^/api-beta': '/', // remove base path
+        '^/api/beta': '/', // remove base path
       },
     })
   )
