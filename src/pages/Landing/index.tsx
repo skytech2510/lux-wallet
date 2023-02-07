@@ -47,7 +47,7 @@ const Gradient = styled.div<{ isDarkMode: boolean }>`
   min-height: 550px;
   background: ${({ isDarkMode }) =>
     isDarkMode
-      ? 'linear-gradient(rgba(8, 8, 8, 0) 0%, rgb(11 11 11 / 100%) 40%)'
+      ? 'linear-gradient(rgba(8, 8, 8, 0) 0%, rgb(11 11 11 / 100%) 50%)'
       : 'linear-gradient(rgba(255, 255, 255, 0) 0%, rgb(255 255 255 /100%) 40%)'};
   z-index: ${Z_INDEX.under_dropdown};
   pointer-events: none;
@@ -74,14 +74,13 @@ const GlowContainer = styled.div`
 
 const Glow = styled.div`
   position: absolute;
-  top: 68px;
-  bottom: 0;
   background: radial-gradient(72.04% 72.04% at 50% 3.99%, #333 0%, rgba(11, 11, 11, 0) 100%);
   filter: blur(72px);
   border-radius: 24px;
   max-width: 480px;
   width: 100%;
   height: 100%;
+  top: 11vh;
 `
 
 const ContentContainer = styled.div<{ isDarkMode: boolean }>`
@@ -96,7 +95,7 @@ const ContentContainer = styled.div<{ isDarkMode: boolean }>`
   min-height: 500px;
   z-index: ${Z_INDEX.under_dropdown};
   transition: ${({ theme }) => `${theme.transition.duration.medium} ${theme.transition.timing.ease} opacity`};
-  height: ${({ theme }) => `calc(100vh - ${theme.navHeight + theme.mobileBottomBarHeight}px)`};
+  height: 66vh;
   pointer-events: none;
   * {
     pointer-events: auto;
