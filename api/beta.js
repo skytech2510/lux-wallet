@@ -1,6 +1,6 @@
 const { createProxyMiddleware } = require('http-proxy-middleware')
 
-const apiProxy = createProxyMiddleware('/api/beta', {
+const apiProxy = createProxyMiddleware('/beta', {
   target: 'https://temp.api.uniswap.org/v1',
   changeOrigin: true,
   includePrefix: false,
