@@ -16,7 +16,7 @@ An open source interface for LUX -- a protocol for decentralized real world asse
 - Twitter: [@luxdefi](https://twitter.com/luxdefi)
 - Reddit: [/r/luxdefi](https://www.reddit.com/r/luxdefi/)
 - Email: [hi@lux.exchange](mailto:hi@lux.exchange)
-- Discord: [Lux](https://discord.gg/FCfyBSbCU5)
+- Discord: [Lux](https://discord.gg/6WHnbNnzVb)
 - Whitepapers:
   - [V1](https://hackmd.io/C-DvwDSfSxuh-Gd4WKE_ig)
   - [V2](https://uniswap.org/whitepaper.pdf)

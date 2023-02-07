@@ -292,7 +292,7 @@ const TxCompleteModal = () => {
                           nftsPurchased.length === 1 ? ' is' : 's are'
                         } no longer available. Uniswap instantly refunded you for this incomplete transaction. `}
                       {formatUsdPrice(txFeeFiat)} was used for gas in attempt to complete this transaction. For support,
-                      please visit our <a href="https://discord.gg/FCfyBSbCU5">Discord</a>
+                      please visit our <a href="https://discord.gg/6WHnbNnzVb">Discord</a>
                     </p>
                     <Box className={styles.allUnavailableAssets}>
                       {nftsNotPurchased.length >= 3 && (
