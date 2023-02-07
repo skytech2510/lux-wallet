@@ -158,7 +158,7 @@ const Banner = () => {
       ) : null}
       <BannerMainArea>
         <HeaderContainer style={{ border: '1px solid rgba(255,255,255,0.1)', boxShadow: '12px 16px 24px rgba(0,0,0,0.24),12px 8px 12px rgba(0,0,0,0.24),4px 4px 8px rgba(0,0,0,0.32)', borderRadius: 16, padding: '0 16px 16px', margin: 16, top: '-16px', position: 'relative' }}>
-          <a href="#/nfts/collection/0x31e0f919c67cedd2bc3e294340dc900735810311" style={{ fontSize: '40px', color: 'white', textDecoration: 'none' }} onClick={() => navigate(`/nfts/collection/0x31e0f919c67cedd2bc3e294340dc900735810311`)}>
+          <a href="https://app.lux.market/collection/ethereum/0x31e0f919c67cedd2bc3e294340dc900735810311" style={{ fontSize: '40px', color: 'white', textDecoration: 'none' }} onClick={() => navigate(`/nfts/collection/0x31e0f919c67cedd2bc3e294340dc900735810311`)}>
             <strong style={{ position: 'relative', left: 8, top: 8, margin: 0, padding: 0, verticalAlign: 'middle', fontSize: '42px' }}>
             ▼ Genesis
             </strong>

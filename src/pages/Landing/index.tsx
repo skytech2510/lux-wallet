@@ -32,8 +32,8 @@ const PageContainer = styled.div<{ isDarkMode: boolean }>`
 
   background: ${({ isDarkMode }) =>
     isDarkMode
-      ? 'linear-gradient(rgba(8, 10, 24, 0) 0%, rgb(8 10 24 / 100%) 45%)'
-      : 'linear-gradient(rgba(255, 255, 255, 0) 0%, rgb(255 255 255 /100%) 45%)'};
+      ? 'linear-gradient(rgba(8, 8, 8, 0) 0%, rgb(11 11 11 / 100%) 42%)'
+      : 'linear-gradient(rgba(255, 255, 255, 0) 0%, rgb(255 255 255 /100%) 42%)'};
 `
 
 const Gradient = styled.div<{ isDarkMode: boolean }>`
@@ -47,8 +47,8 @@ const Gradient = styled.div<{ isDarkMode: boolean }>`
   min-height: 550px;
   background: ${({ isDarkMode }) =>
     isDarkMode
-      ? 'linear-gradient(rgba(8, 10, 24, 0) 0%, rgb(8 10 24 / 100%) 45%)'
-      : 'linear-gradient(rgba(255, 255, 255, 0) 0%, rgb(255 255 255 /100%) 45%)'};
+      ? 'linear-gradient(rgba(8, 8, 8, 0) 0%, rgb(11 11 11 / 100%) 40%)'
+      : 'linear-gradient(rgba(255, 255, 255, 0) 0%, rgb(255 255 255 /100%) 40%)'};
   z-index: ${Z_INDEX.under_dropdown};
   pointer-events: none;
   height: ${({ theme }) => `calc(100vh - ${theme.mobileBottomBarHeight}px)`};
@@ -76,7 +76,7 @@ const Glow = styled.div`
   position: absolute;
   top: 68px;
   bottom: 0;
-  background: radial-gradient(72.04% 72.04% at 50% 3.99%, #ff37eb 0%, rgba(166, 151, 255, 0) 100%);
+  background: radial-gradient(72.04% 72.04% at 50% 3.99%, #333 0%, rgba(11, 11, 11, 0) 100%);
   filter: blur(72px);
   border-radius: 24px;
   max-width: 480px;
@@ -112,7 +112,7 @@ const TitleText = styled.h1<{ isDarkMode: boolean }>`
   margin: 0 0 24px;
   background: ${({ isDarkMode }) =>
     isDarkMode
-      ? 'linear-gradient(20deg, rgba(255, 244, 207, 1) 10%, rgba(255, 87, 218, 1) 100%)'
+      ? 'linear-gradient(20deg,rgb(129 92 255) 10%,rgb(255 47 47) 99.8%)'
       : 'linear-gradient(10deg, rgba(255,79,184,1) 0%, rgba(255,159,251,1) 100%)'};
   background-clip: text;
   -webkit-background-clip: text;
@@ -154,13 +154,13 @@ const LandingButton = styled(BaseButton)`
 `
 
 const ButtonCTA = styled(LandingButton)`
-  background: linear-gradient(93.06deg, #ff00c7 2.66%, #ff9ffb 98.99%);
+  background: linear-gradient(93.06deg, #f0f0f0 2.66%, #f9f9f9 98.99%);
   border: none;
-  color: ${({ theme }) => theme.white};
+  color: ${({ theme }) => theme.black};
   transition: ${({ theme }) => `all ${theme.transition.duration.medium} ${theme.transition.timing.ease}`};
 
   &:hover {
-    box-shadow: 0px 0px 16px 0px #ff00c7;
+    box-shadow: 0px 0px 16px 0px #555;
   }
 `
 
@@ -215,7 +215,7 @@ const AboutContentContainer = styled.div<{ isDarkMode: boolean }>`
   width: 100%;
   background: ${({ isDarkMode }) =>
     isDarkMode
-      ? 'linear-gradient(179.82deg, rgba(0, 0, 0, 0) 0.16%, #050026 99.85%)'
+      ? 'linear-gradient(179.82deg, rgba(0, 0, 0, 0) 0.16%, #101010 99.85%)'
       : 'linear-gradient(179.82deg, rgba(255, 255, 255, 0) 0.16%, #eaeaea 99.85%)'};
   @media screen and (min-width: ${BREAKPOINTS.md}px) {
     padding: 0 96px 5rem;
@@ -309,10 +309,10 @@ export default function Landing() {
 
   // This can be simplified significantly once the flag is removed! For now being explicit is clearer.
   useEffect(() => {
-    if (queryParams.intro || !selectedWallet) {
-      setShowContent(true)
-    } else {
+    if (queryParams.swap) {
       navigate('/swap')
+    } else {
+      setShowContent(true)
     }
   }, [navigate, selectedWallet, queryParams.intro])
 
@@ -326,7 +326,7 @@ export default function Landing() {
               name={SharedEventName.ELEMENT_CLICKED}
               element={InterfaceElementName.LANDING_PAGE_SWAP_ELEMENT}
             >
-              {swapWidgetEnabled ? (
+              {false ? (
                 <WidgetLandingLink to="/swap">
                   <Swap />
                 </WidgetLandingLink>
@@ -342,7 +342,7 @@ export default function Landing() {
             <Glow />
           </GlowContainer>
           <ContentContainer isDarkMode={isDarkMode}>
-            <TitleText isDarkMode={isDarkMode}>Exchange Value</TitleText>
+            <TitleText isDarkMode={isDarkMode}>For the real ones.</TitleText>
             <SubTextContainer>
               <SubText>Find and trade tokens, NFTs, and real world assets (RWAs)</SubText>
             </SubTextContainer>
