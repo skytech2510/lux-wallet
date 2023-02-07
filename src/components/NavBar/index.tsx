@@ -94,8 +94,8 @@ const Navbar = () => {
         <Box className={styles.logoContainer} display={{ sm: 'none', lg: 'flex' }}>
         </Box>
         <Box display="flex" height="full" flexWrap="nowrap">
-          <MenuDropdown />
           <Box className={styles.leftSideContainer}>
+          <MenuDropdown />
             {!isNftPage && (
               <Box display={{ sm: 'flex', lg: 'none' }}>
                 <ChainSelector leftAlign={true} />

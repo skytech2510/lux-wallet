@@ -82,7 +82,7 @@ function getSettings(darkMode: boolean) {
     deprecated_mediaWidth: deprecated_mediaWidthTemplates,
 
     navHeight: 72,
-    mobileBottomBarHeight: 52,
+    mobileBottomBarHeight: 56,
 
     // deprecated - please use hardcoded exported values instead of
     // adding to the theme object
@@ -119,7 +119,7 @@ export const ThemedGlobalStyle = createGlobalStyle`
   }
 
   a {
-    color: ${({ theme }) => theme.accentAction}; 
+    color: ${({ theme }) => theme.accentAction};
   }
 
   :root {
