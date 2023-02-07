@@ -5,8 +5,6 @@ import styled from 'styled-components/macro'
 import { BREAKPOINTS, ExternalLink, StyledRouterLink } from 'theme'
 
 import { DiscordIcon, GithubIcon, TwitterIcon } from './Icons'
-import darkUnicornImgSrc from './images/unicornEmbossDark.png'
-import lightUnicornImgSrc from './images/unicornEmbossLight.png'
 
 const Footer = styled.div`
   display: flex;
@@ -113,7 +111,7 @@ const LogoSectionContent = () => {
   const isDarkMode = useIsDarkMode()
   return (
     <>
-      <StyledLogo src={isDarkMode ? darkUnicornImgSrc : lightUnicornImgSrc} alt="Uniswap Logo" />
+      <span style="font-size: 22px;">▼</span>
       <SocialLinks>
         <SocialLink href="https://discord.gg/6WHnbNnzVb" target="_blank" rel="noopener noreferrer">
           <DiscordIcon size={32} />
@@ -123,11 +121,11 @@ const LogoSectionContent = () => {
           name={SharedEventName.ELEMENT_CLICKED}
           element={InterfaceElementName.TWITTER_LINK}
         >
-          <SocialLink href="https://twitter.com/uniswap" target="_blank" rel="noopener noreferrer">
+          <SocialLink href="https://twitter.com/luxdefi" target="_blank" rel="noopener noreferrer">
             <TwitterIcon size={32} />
           </SocialLink>
         </TraceEvent>
-        <SocialLink href="https://github.com/Uniswap" target="_blank" rel="noopener noreferrer">
+        <SocialLink href="https://github.com/luxdefi" target="_blank" rel="noopener noreferrer">
           <GithubIcon size={32} />
         </SocialLink>
       </SocialLinks>
@@ -153,9 +151,9 @@ export const AboutFooter = () => {
         </LinkGroup>
         <LinkGroup>
           <LinkGroupTitle>Protocol</LinkGroupTitle>
-          <ExternalTextLink href="https://uniswap.org/community">Community</ExternalTextLink>
-          <ExternalTextLink href="https://uniswap.org/governance">Governance</ExternalTextLink>
-          <ExternalTextLink href="https://uniswap.org/developers">Developers</ExternalTextLink>
+          <ExternalTextLink href="https://lux.chat">Community</ExternalTextLink>
+          <ExternalTextLink href="https://lux.vote">Governance</ExternalTextLink>
+          <ExternalTextLink href="https://github.com/luxdefi">Source Code</ExternalTextLink>
         </LinkGroup>
         <LinkGroup>
           <LinkGroupTitle>Company</LinkGroupTitle>
@@ -164,14 +162,14 @@ export const AboutFooter = () => {
             name={SharedEventName.ELEMENT_CLICKED}
             element={InterfaceElementName.CAREERS_LINK}
           >
-            <ExternalTextLink href="https://boards.greenhouse.io/uniswaplabs">Careers</ExternalTextLink>
+            <ExternalTextLink href="https://docs.lux.finance/about/v/lux-job-listings">Careers</ExternalTextLink>
           </TraceEvent>
           <TraceEvent
             events={[BrowserEvent.onClick]}
             name={SharedEventName.ELEMENT_CLICKED}
             element={InterfaceElementName.BLOG_LINK}
           >
-            <ExternalTextLink href="https://uniswap.org/blog">Blog</ExternalTextLink>
+            <ExternalTextLink href="https://blog.lux.finance">Blog</ExternalTextLink>
           </TraceEvent>
         </LinkGroup>
         <LinkGroup>
@@ -182,7 +180,7 @@ export const AboutFooter = () => {
             element={InterfaceElementName.SUPPORT_LINK}
           >
             <ExternalTextLink
-              href="https://support.uniswap.org/hc/en-us/requests/new"
+              href="https://help.lux.echange"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -194,7 +192,7 @@ export const AboutFooter = () => {
             name={SharedEventName.ELEMENT_CLICKED}
             element={InterfaceElementName.SUPPORT_LINK}
           >
-            <ExternalTextLink href="https://support.uniswap.org/hc/en-us">Help Center</ExternalTextLink>
+            <ExternalTextLink href="https://help.lux.exchange">Help Center</ExternalTextLink>
           </TraceEvent>
         </LinkGroup>
       </FooterLinks>
