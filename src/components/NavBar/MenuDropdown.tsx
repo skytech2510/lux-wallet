@@ -135,7 +135,8 @@ export const MenuDropdown = () => {
           <NavDropdown top={{ sm: 'unset', lg: '56' }} bottom={{ sm: '56', lg: 'unset' }} right="0">
             <Column gap="16">
               <Column paddingX="8" gap="4">
-                <PrimaryMenuRow to="/vote" close={toggleOpen}>
+                {/* <PrimaryMenuRow to="/vote" close={toggleOpen}> */}
+                <PrimaryMenuRow href="https://lux.vote/">
                   <Icon>
                     <GovernanceIcon width={24} height={24} />
                   </Icon>
@@ -160,10 +161,10 @@ export const MenuDropdown = () => {
                 alignItems={{ sm: 'center', md: 'flex-start' }}
                 paddingX="8"
               >
-                <SecondaryLinkedText href="https://help.uniswap.org/en/">
+                <SecondaryLinkedText href="https://help.lux.exchange/">
                   <Trans>Help center</Trans> ↗
                 </SecondaryLinkedText>
-                <SecondaryLinkedText href="https://docs.uniswap.org/">
+                <SecondaryLinkedText href="https://docs.lux.exchange/">
                   <Trans>Documentation</Trans> ↗
                 </SecondaryLinkedText>
                 <SecondaryLinkedText
@@ -181,7 +182,7 @@ export const MenuDropdown = () => {
                 )}
               </Box>
               <IconRow>
-                <Icon href="https://discord.com/invite/FCfyBSbCU5">
+                <Icon href="https://discord.gg/6WHnbNnzVb">
                   <DiscordIconMenu
                     className={styles.hover}
                     width={24}
@@ -189,7 +190,7 @@ export const MenuDropdown = () => {
                     color={themeVars.colors.textSecondary}
                   />
                 </Icon>
-                <Icon href="https://twitter.com/Uniswap">
+                <Icon href="https://twitter.com/luxdefi">
                   <TwitterIconMenu
                     className={styles.hover}
                     width={24}
@@ -197,7 +198,7 @@ export const MenuDropdown = () => {
                     color={themeVars.colors.textSecondary}
                   />
                 </Icon>
-                <Icon href="https://github.com/Uniswap">
+                <Icon href="https://github.com/luxdefi">
                   <GithubIconMenu
                     className={styles.hover}
                     width={24}
