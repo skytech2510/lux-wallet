@@ -123,7 +123,8 @@ const commonTheme = {
 export const darkTheme = {
   ...commonTheme,
 
-  userThemeColor: colors.magentaVibrant,
+  // userThemeColor: colors.magentaVibrant,
+  userThemeColor: colors.white,
 
   background: colors.gray800,
   backgroundBackdrop: colors.gray950,

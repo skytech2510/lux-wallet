@@ -246,9 +246,9 @@ export const CarouselCard = ({ collection, onClick }: CarouselCardProps) => {
         <CardBottomContainer>
           <>
             <TableElement>
-              <MarketplaceIcon src="/nft/svgs/marketplaces/uniswap-magenta.svg" alt="Uniswap icon" />
+              <MarketplaceIcon src="/nft/svgs/marketplaces/uniswap-magenta.svg" alt="Lux icon" />
               <FirstColumnTextWrapper>
-                <ThemedText.SubHeaderSmall color="userThemeColor">Uniswap</ThemedText.SubHeaderSmall>
+                <ThemedText.SubHeaderSmall color="userThemeColor">Lux</ThemedText.SubHeaderSmall>
               </FirstColumnTextWrapper>
             </TableElement>
             <TableElement>
