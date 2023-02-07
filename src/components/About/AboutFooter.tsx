@@ -153,7 +153,7 @@ export const AboutFooter = () => {
           <LinkGroupTitle>Protocol</LinkGroupTitle>
           <ExternalTextLink href="https://lux.chat">Community</ExternalTextLink>
           <ExternalTextLink href="https://lux.vote">Governance</ExternalTextLink>
-          <ExternalTextLink href="https://github.com/luxdefi">Source Code</ExternalTextLink>
+          <ExternalTextLink href="https://github.com/luxdefi">Developers</ExternalTextLink>
         </LinkGroup>
         <LinkGroup>
           <LinkGroupTitle>Company</LinkGroupTitle>
@@ -169,7 +169,7 @@ export const AboutFooter = () => {
             name={SharedEventName.ELEMENT_CLICKED}
             element={InterfaceElementName.BLOG_LINK}
           >
-            <ExternalTextLink href="https://blog.lux.finance">Blog</ExternalTextLink>
+            <ExternalTextLink href="https://blog.lux.exchange">Blog</ExternalTextLink>
           </TraceEvent>
         </LinkGroup>
         <LinkGroup>
@@ -180,7 +180,7 @@ export const AboutFooter = () => {
             element={InterfaceElementName.SUPPORT_LINK}
           >
             <ExternalTextLink
-              href="https://help.lux.echange"
+              href="https://help.lux.exchange"
               target="_blank"
               rel="noopener noreferrer"
             >
