@@ -186,6 +186,7 @@
     "get-graphql-schema": "^2.1.2",
     "graphql": "^16.5.0",
     "graphql-request": "^3.4.0",
+    "http-proxy-middleware": "^2.0.6",
     "immer": "^9.0.6",
     "inter-ui": "^3.13.1",
     "jotai": "^1.3.7",
