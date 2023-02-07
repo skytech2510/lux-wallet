@@ -158,8 +158,11 @@ const Banner = () => {
       ) : null}
       <BannerMainArea>
         <HeaderContainer>
-          Better prices. <br />
-          More listings.
+          <a href="#/nfts/collection/0x31e0f919c67cedd2bc3e294340dc900735810311" style={{ color: 'white', textDecoration: 'none' }} onClick={() => navigate(`/nfts/collection/0x31e0f919c67cedd2bc3e294340dc900735810311`)}>
+            ▼ Genesis
+            <br />
+            now trading.
+        </a>
         </HeaderContainer>
         {collections ? (
           <Carousel activeIndex={activeCollectionIdx} toggleNextSlide={onToggleNextSlide}>
