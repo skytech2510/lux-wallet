@@ -103,7 +103,7 @@ export default function CTACards() {
             <Trans>Learn about providing liquidity</Trans> ↗
           </HeaderText>
           <ThemedText.DeprecatedBody fontWeight={400} style={{ alignItems: 'center', display: 'flex' }}>
-            <Trans>Check out our v3 LP walkthrough and migration guides.</Trans>
+            <Trans>Check out our walkthrough and other guides.</Trans>
           </ThemedText.DeprecatedBody>
         </ResponsiveColumn>
       </CTA1>

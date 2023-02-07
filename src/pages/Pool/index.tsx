@@ -232,16 +232,6 @@ export default function Pool() {
     {
       content: (
         <PoolMenuItem>
-          <Trans>Migrate</Trans>
-          <ChevronsRight size={16} />
-        </PoolMenuItem>
-      ),
-      link: '/migrate/v2',
-      external: false,
-    },
-    {
-      content: (
-        <PoolMenuItem>
           <Trans>V2 liquidity</Trans>
           <Layers size={16} />
         </PoolMenuItem>
@@ -256,7 +246,7 @@ export default function Pool() {
           <BookOpen size={16} />
         </PoolMenuItem>
       ),
-      link: 'https://docs.uniswap.org/',
+      link: 'https://docs.lux.exchange/',
       external: true,
     },
   ]
