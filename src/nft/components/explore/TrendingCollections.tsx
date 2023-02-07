@@ -126,7 +126,7 @@ const TrendingCollections = () => {
 
   return (
     <ExploreContainer>
-      <StyledHeader>Trending NFT collections</StyledHeader>
+      <StyledHeader>Top NFTs by volume</StyledHeader>
       <FiltersRow>
         <Filter>
           {timeOptions.map((timeOption) => {
