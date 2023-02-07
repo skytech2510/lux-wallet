@@ -16,14 +16,15 @@
     "i18n:extract": "lingui extract --locale en-US",
     "i18n:compile": "yarn i18n:extract && lingui compile",
     "i18n:pseudo": "lingui extract --locale pseudo && lingui compile",
-    "notprepare": "yarn contracts:compile && yarn graphql:fetch && yarn graphql:generate && yarn i18n:compile",
+    "prepare": "yarn contracts:compile && yarn graphql:fetch && yarn graphql:generate && yarn i18n:compile",
     "start": "craco start",
     "build": "craco build",
     "serve": "serve build -l 3000",
     "deduplicate": "yarn-deduplicate --strategy=highest",
     "test": "craco test --coverage",
     "cypress:open": "cypress open --browser chrome --e2e",
-    "cypress:run": "cypress run --browser chrome --e2e"
+    "cypress:run": "cypress run --browser chrome --e2e",
+    "postinstall": "patch-package"
   },
   "jest": {
     "collectCoverageFrom": [
