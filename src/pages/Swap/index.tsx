@@ -824,8 +824,8 @@ export default function Swap({ className }: { className?: string }) {
                             <MouseoverTooltip
                               text={
                                 <Trans>
-                                  Permission is required for Lux to swap each token. This will expire after one
-                                  month for your security.
+                                  Permission is required for Lux to swap each token. This will expire after one month
+                                  for your security.
                                 </Trans>
                               }
                             >
