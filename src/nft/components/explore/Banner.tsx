@@ -157,12 +157,22 @@ const Banner = () => {
         )
       ) : null}
       <BannerMainArea>
-        <HeaderContainer>
-          <a href="#/nfts/collection/0x31e0f919c67cedd2bc3e294340dc900735810311" style={{ color: 'white', textDecoration: 'none' }} onClick={() => navigate(`/nfts/collection/0x31e0f919c67cedd2bc3e294340dc900735810311`)}>
+        <HeaderContainer style={{ border: '1px solid #424242', borderRadius: 16, padding: '16px 16px 20px', margin: 16, top: '-16px', position: 'relative' }}>
+          <a href="#/nfts/collection/0x31e0f919c67cedd2bc3e294340dc900735810311" style={{ fontSize: '40px', color: 'white', textDecoration: 'none' }} onClick={() => navigate(`/nfts/collection/0x31e0f919c67cedd2bc3e294340dc900735810311`)}>
+            <strong style={{ position: 'relative', left: 8, top: 8, margin: 0, padding: 0, verticalAlign: 'middle', fontSize: '42px' }}>
             ▼ Genesis
-            <br />
-            now trading.
-        </a>
+            </strong>
+            <strong style={{ position: 'relative', left: 20, top: 10, verticalAlign: 'middle', fontSize: '14.2px' }}>NEW!</strong>
+            <p style={{ fontSize: ".9rem", margin: '20px 10px 10px 10px', lineHeight: '1.42', fontWeight: '300' }}>
+              The Lux Genesis collection is backed by 7.65 million pounds of physical uranium (U3O8), in a first-of-its-kind mining transaction.
+            </p>
+            <p style={{ fontSize: ".9rem", margin: '10px', lineHeight: '1.42', fontWeight: '300' }}>
+              Each Genesis NFT provides access to governance, and unique utility. Mint a DeFi credit card, secure network rights and more.
+            </p>
+            <p style={{ fontSize: ".9rem", margin: '10px', lineHeight: '1.42', fontWeight: '300' }}>
+              Stake, vote and build your reputation. Help us increase economic freedom through decentralized access to RWAs.
+            </p>
+          </a>
         </HeaderContainer>
         {collections ? (
           <Carousel activeIndex={activeCollectionIdx} toggleNextSlide={onToggleNextSlide}>
