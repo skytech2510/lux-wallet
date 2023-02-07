@@ -1,7 +1,7 @@
 {
-  "functions": {
-    "api/index.js": {
-      "includeFiles": "src/**"
-    }
-  }
+  "routes": [
+    { "src": "/api/.*",      "dest": "/api/index.js" },
+    { "src": "/api/beta/.*", "dest": "/api/beta.js" },
+    { "src": "/api/cmc/.*",  "dest": "/api/cmc.js" }
+  ]
 }
