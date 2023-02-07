@@ -371,8 +371,8 @@ msgid "By adding liquidity you'll earn 0.3% of all trades on this pair proportio
 msgstr "Si afegiu liquiditat, guanyareu el 0,3% de totes les operacions d’aquest parell proporcional a la vostra quota de grup. Les comissions s’afegeixen al grup, s’acumulen en temps real i es poden reclamar retirant la vostra liquiditat."
 
 #: src/components/WalletModal/index.tsx
-msgid "By connecting a wallet, you agree to Uniswap Labs’ <0>Terms of Service</0> and consent to its <1>Privacy Policy</1>."
-msgstr "En connectar una cartera, accepteu les <0>Condicions del servei</0> d'Uniswap Labs i accepteu la seva <1>Política de privadesa</1>."
+msgid "By connecting a wallet, you agree to Lux Partners Limited’ <0>Terms of Service</0> and consent to its <1>Privacy Policy</1>."
+msgstr "En connectar una cartera, accepteu les <0>Condicions del servei</0> d'Lux Partners Limited i accepteu la seva <1>Política de privadesa</1>."
 
 #: src/pages/Vote/styled.tsx
 msgid "Canceled"
@@ -1814,8 +1814,8 @@ msgid "The app fetches on-chain data and constructs contract calls with an Infur
 msgstr "L'aplicació obté dades en cadena i crea trucades de contracte amb una API Infura."
 
 #: src/components/PrivacyPolicy/index.tsx
-msgid "The app fetches the optimal trade route from a Uniswap Labs server."
-msgstr "L'aplicació obté la ruta comercial òptima des d'un servidor d'Uniswap Labs."
+msgid "The app fetches the optimal trade route from a Lux Partners Limited server."
+msgstr "L'aplicació obté la ruta comercial òptima des d'un servidor d'Lux Partners Limited."
 
 #: src/components/PrivacyPolicy/index.tsx
 msgid "The app logs anonymized usage statistics in order to improve over time."
@@ -1891,8 +1891,8 @@ msgid "There is no liquidity data."
 msgstr "No hi ha dades de liquiditat."
 
 #: src/components/ConnectedAccountBlocked/index.tsx
-msgid "This address is blocked on the Uniswap Labs interface because it is associated with one or more"
-msgstr "Aquesta adreça està bloquejada a la interfície d'Uniswap Labs perquè està associada amb una o més"
+msgid "This address is blocked on the Lux Partners Limited interface because it is associated with one or more"
+msgstr "Aquesta adreça està bloquejada a la interfície d'Lux Partners Limited perquè està associada amb una o més"
 
 #: src/components/PrivacyPolicy/index.tsx
 msgid "This app uses the following third-party APIs:"
@@ -2069,8 +2069,8 @@ msgid "Uniswap Governance"
 msgstr "Governança Uniswap"
 
 #: src/components/PrivacyPolicy/index.tsx
-msgid "Uniswap Labs' Terms of Service"
-msgstr "Condicions del servei d'Uniswap Labs"
+msgid "Lux Partners Limited' Terms of Service"
+msgstr "Condicions del servei d'Lux Partners Limited"
 
 #: src/components/SwitchLocaleLink/index.tsx
 msgid "Uniswap available in: <0>{0}</0>"
@@ -2141,8 +2141,8 @@ msgid "Update Delegation"
 msgstr "Actualitza la delegació"
 
 #: src/components/Settings/index.tsx
-msgid "Use the Uniswap Labs API to get faster quotes."
-msgstr "Utilitzeu l'API d'Uniswap Labs per obtenir pressupostos més ràpids."
+msgid "Use the Lux Partners Limited API to get faster quotes."
+msgstr "Utilitzeu l'API d'Lux Partners Limited per obtenir pressupostos més ràpids."
 
 #: src/pages/Pool/v2.tsx
 msgid "V2 Pool is not available on Layer 2. Switch to Layer 1 Ethereum."

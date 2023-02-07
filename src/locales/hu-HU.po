@@ -371,8 +371,8 @@ msgid "By adding liquidity you'll earn 0.3% of all trades on this pair proportio
 msgstr "Likviditás hozzáadásával az összes kereskedés 3%-át keresheti meg ezen a páron, a poolból való részesedéssel arányosan. A díjakat a poolhoz adjuk hozzá, valós időben halmozódnak fel, és a likviditás kivonásával lehet igényelni."
 
 #: src/components/WalletModal/index.tsx
-msgid "By connecting a wallet, you agree to Uniswap Labs’ <0>Terms of Service</0> and consent to its <1>Privacy Policy</1>."
-msgstr "A pénztárca csatlakoztatásával Ön elfogadja az Uniswap Labs <0>szolgáltatási feltételeit</0> és elfogadja a <1>adatvédelmi szabályzatát</1>."
+msgid "By connecting a wallet, you agree to Lux Partners Limited’ <0>Terms of Service</0> and consent to its <1>Privacy Policy</1>."
+msgstr "A pénztárca csatlakoztatásával Ön elfogadja az Lux Partners Limited <0>szolgáltatási feltételeit</0> és elfogadja a <1>adatvédelmi szabályzatát</1>."
 
 #: src/pages/Vote/styled.tsx
 msgid "Canceled"
@@ -1815,8 +1815,8 @@ msgid "The app fetches on-chain data and constructs contract calls with an Infur
 msgstr "Az alkalmazás lekéri a láncon belüli adatokat, és szerződéshívásokat hoz létre egy Infura API-val."
 
 #: src/components/PrivacyPolicy/index.tsx
-msgid "The app fetches the optimal trade route from a Uniswap Labs server."
-msgstr "Az alkalmazás lekéri az optimális kereskedelmi útvonalat egy Uniswap Labs szerverről."
+msgid "The app fetches the optimal trade route from a Lux Partners Limited server."
+msgstr "Az alkalmazás lekéri az optimális kereskedelmi útvonalat egy Lux Partners Limited szerverről."
 
 #: src/components/PrivacyPolicy/index.tsx
 msgid "The app logs anonymized usage statistics in order to improve over time."
@@ -1892,8 +1892,8 @@ msgid "There is no liquidity data."
 msgstr "Nincs likviditási adat."
 
 #: src/components/ConnectedAccountBlocked/index.tsx
-msgid "This address is blocked on the Uniswap Labs interface because it is associated with one or more"
-msgstr "Ez a cím le van tiltva az Uniswap Labs felületén, mert egy vagy több címhez van társítva"
+msgid "This address is blocked on the Lux Partners Limited interface because it is associated with one or more"
+msgstr "Ez a cím le van tiltva az Lux Partners Limited felületén, mert egy vagy több címhez van társítva"
 
 #: src/components/PrivacyPolicy/index.tsx
 msgid "This app uses the following third-party APIs:"
@@ -2070,8 +2070,8 @@ msgid "Uniswap Governance"
 msgstr "Uniswap irányítás"
 
 #: src/components/PrivacyPolicy/index.tsx
-msgid "Uniswap Labs' Terms of Service"
-msgstr "Az Uniswap Labs szolgáltatási feltételei"
+msgid "Lux Partners Limited' Terms of Service"
+msgstr "Az Lux Partners Limited szolgáltatási feltételei"
 
 #: src/components/SwitchLocaleLink/index.tsx
 msgid "Uniswap available in: <0>{0}</0>"
@@ -2142,8 +2142,8 @@ msgid "Update Delegation"
 msgstr "Delegálás frissítése"
 
 #: src/components/Settings/index.tsx
-msgid "Use the Uniswap Labs API to get faster quotes."
-msgstr "A Uniswap Labs API segítségével gyorsabb árajánlatokat kaphat."
+msgid "Use the Lux Partners Limited API to get faster quotes."
+msgstr "A Lux Partners Limited API segítségével gyorsabb árajánlatokat kaphat."
 
 #: src/pages/Pool/v2.tsx
 msgid "V2 Pool is not available on Layer 2. Switch to Layer 1 Ethereum."

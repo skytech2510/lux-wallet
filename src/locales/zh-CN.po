@@ -371,8 +371,8 @@ msgid "By adding liquidity you'll earn 0.3% of all trades on this pair proportio
 msgstr "通过添加流动性，您将按您在流动池中所占比例赚取对应交易量的0.3%手续费。手续费将实时累加到流动池中，在您取回流动性时也将同时取回您赚取的手续费。"
 
 #: src/components/WalletModal/index.tsx
-msgid "By connecting a wallet, you agree to Uniswap Labs’ <0>Terms of Service</0> and consent to its <1>Privacy Policy</1>."
-msgstr "连接钱包即表示您同意 Uniswap Labs 的 <0>服务条款</0> 并同意其 <1>隐私政策</1>。"
+msgid "By connecting a wallet, you agree to Lux Partners Limited’ <0>Terms of Service</0> and consent to its <1>Privacy Policy</1>."
+msgstr "连接钱包即表示您同意 Lux Partners Limited 的 <0>服务条款</0> 并同意其 <1>隐私政策</1>。"
 
 #: src/pages/Vote/styled.tsx
 msgid "Canceled"
@@ -1814,8 +1814,8 @@ msgid "The app fetches on-chain data and constructs contract calls with an Infur
 msgstr "该应用程序获取链上数据并使用 Infura API 构建合约调用。"
 
 #: src/components/PrivacyPolicy/index.tsx
-msgid "The app fetches the optimal trade route from a Uniswap Labs server."
-msgstr "该应用程序从 Uniswap Labs 服务器获取最佳交易路径。"
+msgid "The app fetches the optimal trade route from a Lux Partners Limited server."
+msgstr "该应用程序从 Lux Partners Limited 服务器获取最佳交易路径。"
 
 #: src/components/PrivacyPolicy/index.tsx
 msgid "The app logs anonymized usage statistics in order to improve over time."
@@ -1891,8 +1891,8 @@ msgid "There is no liquidity data."
 msgstr "没有流动性数据。"
 
 #: src/components/ConnectedAccountBlocked/index.tsx
-msgid "This address is blocked on the Uniswap Labs interface because it is associated with one or more"
-msgstr "此地址在 Uniswap Labs 界面上被阻止，因为它与一个或多个相关联"
+msgid "This address is blocked on the Lux Partners Limited interface because it is associated with one or more"
+msgstr "此地址在 Lux Partners Limited 界面上被阻止，因为它与一个或多个相关联"
 
 #: src/components/PrivacyPolicy/index.tsx
 msgid "This app uses the following third-party APIs:"
@@ -2069,8 +2069,8 @@ msgid "Uniswap Governance"
 msgstr "Uniswap治理"
 
 #: src/components/PrivacyPolicy/index.tsx
-msgid "Uniswap Labs' Terms of Service"
-msgstr "Uniswap Labs 的服务条款"
+msgid "Lux Partners Limited' Terms of Service"
+msgstr "Lux Partners Limited 的服务条款"
 
 #: src/components/SwitchLocaleLink/index.tsx
 msgid "Uniswap available in: <0>{0}</0>"
@@ -2141,8 +2141,8 @@ msgid "Update Delegation"
 msgstr "更新投票权委托"
 
 #: src/components/Settings/index.tsx
-msgid "Use the Uniswap Labs API to get faster quotes."
-msgstr "使用 Uniswap Labs API 获得更快的报价。"
+msgid "Use the Lux Partners Limited API to get faster quotes."
+msgstr "使用 Lux Partners Limited API 获得更快的报价。"
 
 #: src/pages/Pool/v2.tsx
 msgid "V2 Pool is not available on Layer 2. Switch to Layer 1 Ethereum."

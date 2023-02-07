@@ -371,8 +371,8 @@ msgid "By adding liquidity you'll earn 0.3% of all trades on this pair proportio
 msgstr "流動性を追加することで、このペアのすべての取引で発生する0.3%の手数料のうち、プールのシェアに応じた報酬を獲得します。報酬はリアルタイムにプールに追加され、反映されます。報酬は流動性を引き出すことで請求できます。"
 
 #: src/components/WalletModal/index.tsx
-msgid "By connecting a wallet, you agree to Uniswap Labs’ <0>Terms of Service</0> and consent to its <1>Privacy Policy</1>."
-msgstr "ウォレットを接続することにより、Uniswap Labs の <0>利用規約</0> に同意し、 <1>プライバシー ポリシー</1>に同意したことになります。"
+msgid "By connecting a wallet, you agree to Lux Partners Limited’ <0>Terms of Service</0> and consent to its <1>Privacy Policy</1>."
+msgstr "ウォレットを接続することにより、Lux Partners Limited の <0>利用規約</0> に同意し、 <1>プライバシー ポリシー</1>に同意したことになります。"
 
 #: src/pages/Vote/styled.tsx
 msgid "Canceled"
@@ -1814,8 +1814,8 @@ msgid "The app fetches on-chain data and constructs contract calls with an Infur
 msgstr "アプリはオンチェーンデータを取得し、InfuraAPIを使用してコントラクト呼び出しを構築します。"
 
 #: src/components/PrivacyPolicy/index.tsx
-msgid "The app fetches the optimal trade route from a Uniswap Labs server."
-msgstr "アプリは、Uniswap Labsサーバーから最適な取引ルートを取得します。"
+msgid "The app fetches the optimal trade route from a Lux Partners Limited server."
+msgstr "アプリは、Lux Partners Limitedサーバーから最適な取引ルートを取得します。"
 
 #: src/components/PrivacyPolicy/index.tsx
 msgid "The app logs anonymized usage statistics in order to improve over time."
@@ -1891,7 +1891,7 @@ msgid "There is no liquidity data."
 msgstr "流動性データはありません。"
 
 #: src/components/ConnectedAccountBlocked/index.tsx
-msgid "This address is blocked on the Uniswap Labs interface because it is associated with one or more"
+msgid "This address is blocked on the Lux Partners Limited interface because it is associated with one or more"
 msgstr "このアドレスは、1つ以上に関連付けられているため、UniswapLabsインターフェイスでブロックされています。"
 
 #: src/components/PrivacyPolicy/index.tsx
@@ -2069,7 +2069,7 @@ msgid "Uniswap Governance"
 msgstr "Uniswapのガバナンス"
 
 #: src/components/PrivacyPolicy/index.tsx
-msgid "Uniswap Labs' Terms of Service"
+msgid "Lux Partners Limited' Terms of Service"
 msgstr "UniswapLabsの利用規約"
 
 #: src/components/SwitchLocaleLink/index.tsx
@@ -2141,8 +2141,8 @@ msgid "Update Delegation"
 msgstr "委任を更新"
 
 #: src/components/Settings/index.tsx
-msgid "Use the Uniswap Labs API to get faster quotes."
-msgstr "Uniswap Labs APIを使用して、より迅速な見積もりを取得します。"
+msgid "Use the Lux Partners Limited API to get faster quotes."
+msgstr "Lux Partners Limited APIを使用して、より迅速な見積もりを取得します。"
 
 #: src/pages/Pool/v2.tsx
 msgid "V2 Pool is not available on Layer 2. Switch to Layer 1 Ethereum."

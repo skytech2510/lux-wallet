@@ -329,7 +329,7 @@ export default function WalletModal({
 
       const content = (
         <Trans>
-          By connecting a wallet, you agree to Uniswap Labs’{' '}
+          By connecting a wallet, you agree to Lux Partners Limited’{' '}
           <ExternalLink href="https://uniswap.org/terms-of-service/">Terms of Service</ExternalLink> and consent to its{' '}
           <ExternalLink href="https://uniswap.org/privacy-policy">Privacy Policy</ExternalLink>.
         </Trans>

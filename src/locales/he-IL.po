@@ -371,8 +371,8 @@ msgid "By adding liquidity you'll earn 0.3% of all trades on this pair proportio
 msgstr "על ידי הוספת נזילות תרוויח 0.3% מכלל העסקאות בזוג זה ביחס לחלק שלך במאגר. העמלות מתווספות לבריכה, נצברות בזמן אמת וניתן לתבוע אותן באמצעות משיכת הנזילות שלך."
 
 #: src/components/WalletModal/index.tsx
-msgid "By connecting a wallet, you agree to Uniswap Labs’ <0>Terms of Service</0> and consent to its <1>Privacy Policy</1>."
-msgstr "על ידי חיבור ארנק, אתה מסכים לתנאי השירות</0> של Uniswap Labs <0>ומסכים למדיניות הפרטיות <1>שלה</1>."
+msgid "By connecting a wallet, you agree to Lux Partners Limited’ <0>Terms of Service</0> and consent to its <1>Privacy Policy</1>."
+msgstr "על ידי חיבור ארנק, אתה מסכים לתנאי השירות</0> של Lux Partners Limited <0>ומסכים למדיניות הפרטיות <1>שלה</1>."
 
 #: src/pages/Vote/styled.tsx
 msgid "Canceled"
@@ -1814,8 +1814,8 @@ msgid "The app fetches on-chain data and constructs contract calls with an Infur
 msgstr "האפליקציה שואבת נתונים על השרשרת ובונה שיחות חוזה עם Infura API."
 
 #: src/components/PrivacyPolicy/index.tsx
-msgid "The app fetches the optimal trade route from a Uniswap Labs server."
-msgstr "האפליקציה שואבת את נתיב הסחר האופטימלי משרת Uniswap Labs."
+msgid "The app fetches the optimal trade route from a Lux Partners Limited server."
+msgstr "האפליקציה שואבת את נתיב הסחר האופטימלי משרת Lux Partners Limited."
 
 #: src/components/PrivacyPolicy/index.tsx
 msgid "The app logs anonymized usage statistics in order to improve over time."
@@ -1891,8 +1891,8 @@ msgid "There is no liquidity data."
 msgstr "אין נתוני נזילות."
 
 #: src/components/ConnectedAccountBlocked/index.tsx
-msgid "This address is blocked on the Uniswap Labs interface because it is associated with one or more"
-msgstr "כתובת זו חסומה בממשק Uniswap Labs מכיוון שהיא משויכת לאחד או יותר"
+msgid "This address is blocked on the Lux Partners Limited interface because it is associated with one or more"
+msgstr "כתובת זו חסומה בממשק Lux Partners Limited מכיוון שהיא משויכת לאחד או יותר"
 
 #: src/components/PrivacyPolicy/index.tsx
 msgid "This app uses the following third-party APIs:"
@@ -2069,8 +2069,8 @@ msgid "Uniswap Governance"
 msgstr "ממשל לא מוחלף"
 
 #: src/components/PrivacyPolicy/index.tsx
-msgid "Uniswap Labs' Terms of Service"
-msgstr "התנאים וההגבלות של Uniswap Labs"
+msgid "Lux Partners Limited' Terms of Service"
+msgstr "התנאים וההגבלות של Lux Partners Limited"
 
 #: src/components/SwitchLocaleLink/index.tsx
 msgid "Uniswap available in: <0>{0}</0>"
@@ -2141,8 +2141,8 @@ msgid "Update Delegation"
 msgstr "עדכן משלחת"
 
 #: src/components/Settings/index.tsx
-msgid "Use the Uniswap Labs API to get faster quotes."
-msgstr "השתמש בממשק ה-API של Uniswap Labs כדי לקבל הצעות מחיר מהירות יותר."
+msgid "Use the Lux Partners Limited API to get faster quotes."
+msgstr "השתמש בממשק ה-API של Lux Partners Limited כדי לקבל הצעות מחיר מהירות יותר."
 
 #: src/pages/Pool/v2.tsx
 msgid "V2 Pool is not available on Layer 2. Switch to Layer 1 Ethereum."

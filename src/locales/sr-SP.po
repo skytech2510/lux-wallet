@@ -371,7 +371,7 @@ msgid "By adding liquidity you'll earn 0.3% of all trades on this pair proportio
 msgstr "Додавањем ликвидности зарадићете 0,3% свих трговина на овом пару пропорционално вашем уделу у фонду. Накнаде се додају у фонд, прикупљају се у реалном времену и могу се захтевати повлачењем ваше ликвидности."
 
 #: src/components/WalletModal/index.tsx
-msgid "By connecting a wallet, you agree to Uniswap Labs’ <0>Terms of Service</0> and consent to its <1>Privacy Policy</1>."
+msgid "By connecting a wallet, you agree to Lux Partners Limited’ <0>Terms of Service</0> and consent to its <1>Privacy Policy</1>."
 msgstr "Повезивањем новчаника прихватате Услове коришћења услуге <0>Унисвап Лабс-а</0> и сагласни сте са његовом <1>Политиком приватности</1>."
 
 #: src/pages/Vote/styled.tsx
@@ -1814,8 +1814,8 @@ msgid "The app fetches on-chain data and constructs contract calls with an Infur
 msgstr "Aplikacija preuzima podatke na lancu i konstruiše ugovorne pozive pomoću Infura API-ja."
 
 #: src/components/PrivacyPolicy/index.tsx
-msgid "The app fetches the optimal trade route from a Uniswap Labs server."
-msgstr "Aplikacija preuzima optimalni trgovački put sa servera Uniswap Labs."
+msgid "The app fetches the optimal trade route from a Lux Partners Limited server."
+msgstr "Aplikacija preuzima optimalni trgovački put sa servera Lux Partners Limited."
 
 #: src/components/PrivacyPolicy/index.tsx
 msgid "The app logs anonymized usage statistics in order to improve over time."
@@ -1891,7 +1891,7 @@ msgid "There is no liquidity data."
 msgstr "Нема података о ликвидности."
 
 #: src/components/ConnectedAccountBlocked/index.tsx
-msgid "This address is blocked on the Uniswap Labs interface because it is associated with one or more"
+msgid "This address is blocked on the Lux Partners Limited interface because it is associated with one or more"
 msgstr "Ова адреса је блокирана на интерфејсу Унисвап Лабс јер је повезана са једном или више њих"
 
 #: src/components/PrivacyPolicy/index.tsx
@@ -2069,8 +2069,8 @@ msgid "Uniswap Governance"
 msgstr "Uniswap управљање"
 
 #: src/components/PrivacyPolicy/index.tsx
-msgid "Uniswap Labs' Terms of Service"
-msgstr "Uslovi korišćenja usluge Uniswap Labs"
+msgid "Lux Partners Limited' Terms of Service"
+msgstr "Uslovi korišćenja usluge Lux Partners Limited"
 
 #: src/components/SwitchLocaleLink/index.tsx
 msgid "Uniswap available in: <0>{0}</0>"
@@ -2141,7 +2141,7 @@ msgid "Update Delegation"
 msgstr "Ажурирање делегације"
 
 #: src/components/Settings/index.tsx
-msgid "Use the Uniswap Labs API to get faster quotes."
+msgid "Use the Lux Partners Limited API to get faster quotes."
 msgstr "Користите Унисвап Лабс АПИ да бисте добили брже понуде."
 
 #: src/pages/Pool/v2.tsx

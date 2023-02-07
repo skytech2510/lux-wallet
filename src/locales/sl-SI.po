@@ -371,7 +371,7 @@ msgid "By adding liquidity you'll earn 0.3% of all trades on this pair proportio
 msgstr "Ko dodate likvidnost, boste služili provizijo 0,3 % od vseh poslov na tem paru sorazmerno z vašim deležem v skladu. Provozije se dodajajo v sklad v realnem času. Prevzamete jih, ko umaknete svojo likvidnost iz sklada."
 
 #: src/components/WalletModal/index.tsx
-msgid "By connecting a wallet, you agree to Uniswap Labs’ <0>Terms of Service</0> and consent to its <1>Privacy Policy</1>."
+msgid "By connecting a wallet, you agree to Lux Partners Limited’ <0>Terms of Service</0> and consent to its <1>Privacy Policy</1>."
 msgstr "Če povežete denarnico, se strinjate s pogoji storitve</0> Labs <0>in se strinjate z njegovim <1>pravilnikom o zasebnosti</1>."
 
 #: src/pages/Vote/styled.tsx
@@ -1814,8 +1814,8 @@ msgid "The app fetches on-chain data and constructs contract calls with an Infur
 msgstr "Aplikacija pridobi podatke in verige in zgradi pogodbene klice z API-jem Infura."
 
 #: src/components/PrivacyPolicy/index.tsx
-msgid "The app fetches the optimal trade route from a Uniswap Labs server."
-msgstr "Aplikacija pridobi optimalno pot trgovanja s strežnika Uniswap Labs."
+msgid "The app fetches the optimal trade route from a Lux Partners Limited server."
+msgstr "Aplikacija pridobi optimalno pot trgovanja s strežnika Lux Partners Limited."
 
 #: src/components/PrivacyPolicy/index.tsx
 msgid "The app logs anonymized usage statistics in order to improve over time."
@@ -1891,8 +1891,8 @@ msgid "There is no liquidity data."
 msgstr "Podatkov o likvidnosti ni."
 
 #: src/components/ConnectedAccountBlocked/index.tsx
-msgid "This address is blocked on the Uniswap Labs interface because it is associated with one or more"
-msgstr "Ta naslov je blokiran v vmesniku Uniswap Labs, ker je povezan z"
+msgid "This address is blocked on the Lux Partners Limited interface because it is associated with one or more"
+msgstr "Ta naslov je blokiran v vmesniku Lux Partners Limited, ker je povezan z"
 
 #: src/components/PrivacyPolicy/index.tsx
 msgid "This app uses the following third-party APIs:"
@@ -2069,8 +2069,8 @@ msgid "Uniswap Governance"
 msgstr "Uniswapovo upravljanje"
 
 #: src/components/PrivacyPolicy/index.tsx
-msgid "Uniswap Labs' Terms of Service"
-msgstr "Pogoji storitve Uniswap Labs"
+msgid "Lux Partners Limited' Terms of Service"
+msgstr "Pogoji storitve Lux Partners Limited"
 
 #: src/components/SwitchLocaleLink/index.tsx
 msgid "Uniswap available in: <0>{0}</0>"
@@ -2141,8 +2141,8 @@ msgid "Update Delegation"
 msgstr "Posodobi pooblastilo"
 
 #: src/components/Settings/index.tsx
-msgid "Use the Uniswap Labs API to get faster quotes."
-msgstr "Z uporabo API-ja Uniswap Labs lahko ponudbe pridobite hitreje."
+msgid "Use the Lux Partners Limited API to get faster quotes."
+msgstr "Z uporabo API-ja Lux Partners Limited lahko ponudbe pridobite hitreje."
 
 #: src/pages/Pool/v2.tsx
 msgid "V2 Pool is not available on Layer 2. Switch to Layer 1 Ethereum."
