@@ -5,7 +5,7 @@ const apiProxy = createProxyMiddleware('/cmc', {
   changeOrigin: true,
   includePrefix: false,
   pathRewrite: {
-    '^/api/cmc': '/' // strip "/api" from the URL
+    '^/cmc': '/' // strip "/api" from the URL
   },
   onProxyReq(proxyReq) {
     proxyReq.setHeader('origin', 'http://localhost:3000')

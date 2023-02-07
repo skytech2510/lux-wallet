@@ -1,7 +1,7 @@
 {
   "routes": [
-    { "src": "/api/.*",      "dest": "/api/index.js" },
-    { "src": "/api/beta/.*", "dest": "/api/beta.js" },
-    { "src": "/api/cmc/.*",  "dest": "/api/cmc.js" }
+    { "src": "/api/.*",  "dest": "/api/index.js" },
+    { "src": "/beta/.*", "dest": "/api/beta.js" },
+    { "src": "/cmc/.*",  "dest": "/api/cmc.js" }
   ]
 }

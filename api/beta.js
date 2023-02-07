@@ -5,7 +5,7 @@ const apiProxy = createProxyMiddleware('/beta', {
   changeOrigin: true,
   includePrefix: false,
   pathRewrite: {
-    '^/api/beta': '/' // strip "/api" from the URL
+    '^/beta': '/' // strip "/api" from the URL
   },
   onProxyReq(proxyReq) {
     proxyReq.setHeader('origin', 'http://localhost:3000')
