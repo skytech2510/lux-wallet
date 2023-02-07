@@ -124,12 +124,12 @@ function PrivacyPolicy() {
       <AutoColumn gap="16px">
         <AutoColumn gap="sm" style={{ width: '100%' }}>
           <StyledExternalCard>
-            <ExternalLink href="https://uniswap.org/terms-of-service">
+            <ExternalLink href="https://docs.lux.exchange/v/terms-of-service">
               <RowBetween>
                 <AutoRow gap="4px">
                   <Info size={20} />
                   <ThemedText.DeprecatedMain fontSize={14} color="accentAction">
-                    <Trans>Lux Partners Limited&apos; Terms of Service</Trans>
+                    <Trans>Lux Partners Limited Terms of Service</Trans>
                   </ThemedText.DeprecatedMain>
                 </AutoRow>
                 <StyledLinkOut size={20} />
@@ -137,7 +137,7 @@ function PrivacyPolicy() {
             </ExternalLink>
           </StyledExternalCard>
           <StyledExternalCard>
-            <ExternalLink href="https://uniswap.org/privacy-policy/">
+            <ExternalLink href="https://docs.lux.exchange/v/privacy-policy/">
               <RowBetween>
                 <AutoRow gap="4px">
                   <Info size={20} />
