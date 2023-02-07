@@ -1,7 +1,7 @@
 {
   "functions": {
-    "api/api.js": {
-      "includeFiles": "templates/**"
+    "api/index.js": {
+      "includeFiles": "src/**"
     }
   }
 }
