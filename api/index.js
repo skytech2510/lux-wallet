@@ -27,8 +27,8 @@ const apiProxy = createProxyMiddleware({
   },
   onProxyRes(proxyRes) {
     proxyRes.headers['Cache-Control'] = 's-maxage=1, stale-while-revalidate'
-  }
-  logLevel: 'debug'
+  },
+  logLevel: 'debug',
 })
 
 // Expose the proxy on the "/api/*" endpoint.
