@@ -7,7 +7,7 @@ import { Column, Row } from 'nft/components/Flex'
 import {
   BarChartIcon,
   DiscordIconMenu,
-  EllipsisIcon,
+  LuxIcon,
   GithubIconMenu,
   GovernanceIcon,
   TwitterIconMenu,
@@ -128,11 +128,11 @@ export const MenuDropdown = () => {
     <>
       <Box position="relative" ref={ref}>
         <NavIcon isActive={isOpen} onClick={toggleOpen}>
-          <EllipsisIcon viewBox="0 0 20 20" width={24} height={24} />
+          <LuxIcon width={29} height={28} />
         </NavIcon>
 
         {isOpen && (
-          <NavDropdown top={{ sm: 'unset', lg: '56' }} bottom={{ sm: '56', lg: 'unset' }} right="0">
+          <NavDropdown top={{ sm: 'unset', lg: '56' }} bottom={{ sm: '56', lg: 'unset' }} left="0">
             <Column gap="16">
               <Column paddingX="8" gap="4">
                 {/* <PrimaryMenuRow to="/vote" close={toggleOpen}> */}
@@ -150,6 +150,14 @@ export const MenuDropdown = () => {
                   </Icon>
                   <PrimaryMenuRow.Text>
                     <Trans>View more analytics</Trans>
+                  </PrimaryMenuRow.Text>
+                </PrimaryMenuRow>
+                <PrimaryMenuRow href="https://lux.partners" close={toggleOpen}>
+                  <Icon>
+                    <LuxIcon width={24} height={24} />
+                  </Icon>
+                  <PrimaryMenuRow.Text>
+                    <Trans>About Lux</Trans>
                   </PrimaryMenuRow.Text>
                 </PrimaryMenuRow>
               </Column>

@@ -85,14 +85,17 @@ const Navbar = () => {
   const isNftListV2 = useNftListV2Flag() === NftListV2Variant.Enabled
   const navigate = useNavigate()
 
+  // <Box className={styles.logoContainer}>
+  //    <span style={{ fontSize: '22px' }}>▼</span>
+  // </Box>
   return (
     <>
       <Nav>
+        <Box className={styles.logoContainer} display={{ sm: 'none', lg: 'flex' }}>
+        </Box>
         <Box display="flex" height="full" flexWrap="nowrap">
+          <MenuDropdown />
           <Box className={styles.leftSideContainer}>
-            <Box className={styles.logoContainer}>
-              <span style={{ fontSize: '22px' }}>▼</span>
-            </Box>
             {!isNftPage && (
               <Box display={{ sm: 'flex', lg: 'none' }}>
                 <ChainSelector leftAlign={true} />
@@ -109,9 +112,6 @@ const Navbar = () => {
             <Row gap="12">
               <Box position="relative" display={{ sm: 'flex', xl: 'none' }}>
                 <SearchBar />
-              </Box>
-              <Box display={{ sm: 'none', lg: 'flex' }}>
-                <MenuDropdown />
               </Box>
               {isNftPage && (!isNftListV2 || sellPageState !== ProfilePageStateType.LISTING) && <Bag />}
               {!isNftPage && (
