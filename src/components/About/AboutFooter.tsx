@@ -111,7 +111,7 @@ const LogoSectionContent = () => {
   const isDarkMode = useIsDarkMode()
   return (
     <>
-      <span style="font-size: 22px;">▼</span>
+      <span style={{ fontSize: '22px' }}>▼</span>
       <SocialLinks>
         <SocialLink href="https://discord.gg/6WHnbNnzVb" target="_blank" rel="noopener noreferrer">
           <DiscordIcon size={32} />
