@@ -19,6 +19,9 @@ const apiProxy = createProxyMiddleware({
   pathRewrite: {
     '^/api': '' // strip "/api" from the URL
   },
+  onProxyReq(proxyReq) {
+    proxyReq.setHeader('origin', 'app.uniswap.org')
+  },
   onProxyRes(proxyRes) {
     proxyRes.headers['Cache-Control'] = 's-maxage=1, stale-while-revalidate'
   }

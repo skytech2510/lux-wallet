@@ -19,9 +19,13 @@ const apiProxy = createProxyMiddleware({
   pathRewrite: {
     '^/api/beta': '' // strip "/api" from the URL
   },
+  onProxyReq(proxyReq) {
+    proxyReq.setHeader('origin', 'app.uniswap.org')
+  },
   onProxyRes(proxyRes) {
     proxyRes.headers['Cache-Control'] = 's-maxage=1, stale-while-revalidate'
-  }
+  },
+  logLevel: 'debug'
 })
 
 // Expose the proxy on the "/api/*" endpoint.
