@@ -14,10 +14,10 @@
 const { createProxyMiddleware } = require('http-proxy-middleware')
 
 const apiProxy = createProxyMiddleware({
-  target: 'https://beta.api.uniswap.org/v1/graphql',
+  target: 'https://api.coinmarketcap.com/data-api/v3/uniswap/all.json',
   changeOrigin: true,
   pathRewrite: {
-    '^/api': '' // strip "/api" from the URL
+    '^/api/cmc': '/', // remove base path
   },
   onProxyRes(proxyRes) {
     proxyRes.headers['Cache-Control'] = 's-maxage=1, stale-while-revalidate'
@@ -28,3 +28,4 @@ const apiProxy = createProxyMiddleware({
 export default function (req, res) {
   return apiProxy(req, res)
 }
+

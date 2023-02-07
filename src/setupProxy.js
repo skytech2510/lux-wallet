@@ -22,12 +22,12 @@ module.exports = function(app) {
     })
   )
   app.use(
-    '/cmc',
+    '/api/cmc',
     createProxyMiddleware({
       target: 'https://api.coinmarketcap.com/data-api/v3/uniswap/all.json',
       changeOrigin: true,
       pathRewrite: {
-        '^/cmc': '/', // remove base path
+        '^/api/cmc': '/', // remove base path
       },
     })
   )
