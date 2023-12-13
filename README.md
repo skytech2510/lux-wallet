@@ -1,18 +1,17 @@
-# lux.exchange
+# exchange
 
 [![codecov](https://codecov.io/gh/Uniswap/interface/branch/main/graph/badge.svg?token=YVT2Y86O82)](https://codecov.io/gh/Uniswap/interface)
-
 [![Unit Tests](https://github.com/Uniswap/interface/actions/workflows/unit-tests.yaml/badge.svg)](https://github.com/Uniswap/interface/actions/workflows/unit-tests.yaml)
 [![Integration Tests](https://github.com/Uniswap/interface/actions/workflows/integration-tests.yaml/badge.svg)](https://github.com/Uniswap/interface/actions/workflows/integration-tests.yaml)
 [![Lint](https://github.com/Uniswap/interface/actions/workflows/lint.yml/badge.svg)](https://github.com/Uniswap/interface/actions/workflows/lint.yml)
 [![Release](https://github.com/Uniswap/interface/actions/workflows/release.yaml/badge.svg)](https://github.com/Uniswap/interface/actions/workflows/release.yaml)
 [![Crowdin](https://badges.crowdin.net/uniswap-interface/localized.svg)](https://crowdin.com/project/uniswap-interface)
 
-An open source interface for LUX -- a protocol for decentralized real world assets (RWAs).
+An open source interface for [Lux Exchange](https://lux.exchange) -- a protocol for decentralized real world assets (RWAs).
 
 - Website: [lux.exchange](https://lux.exchange)
 - Interface: [app.lux.exchange](https://app.lux.exchange)
-- Docs: [uniswap.org/docs/](https://docs.lux.exchange/)
+- Docs: [docs.lux.exchange](https://docs.lux.exchange/)
 - Twitter: [@luxdefi](https://twitter.com/luxdefi)
 - Reddit: [/r/luxdefi](https://www.reddit.com/r/luxdefi/)
 - Email: [hi@lux.exchange](mailto:hi@lux.exchange)
